@@ -4,7 +4,7 @@ int main() {
 
 
  if (x <= 0 &&  y <= 0){
-    printf("pls whith a positive number");
+    
  
 }
    
