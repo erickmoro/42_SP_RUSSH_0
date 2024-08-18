@@ -3,7 +3,6 @@
 int main() {
     int altura = 3;
     int largura = 1;
-    int
   
     
     if (largura <= 0){
@@ -17,16 +16,48 @@ int main() {
     return 1;
     }
 
+
+
+
+
+
+
+
+
+
     // Imprimir a parte superior da grade
     for (int i = 0; i < altura; i++) {
         for (int j = 0; j < largura; j++) {
-            // Imprime o canto superior esquerdo ou canto superior direito
+           
+
+
+
+
+
+
+
+
+
+
+ // Imprime o canto superior esquerdo ou canto superior direito
             if (j == 0) {
                 printf("o");
             } if (altura <= 0){
     printf("pls whith a positive number");
     return 1;
     }
+
+
+
+
+
+
+
+
+
+
+
+
 
     // Imprimir a parte superior da grade
     for (int i = 0; i < altura; i++) {
@@ -44,6 +75,21 @@ int main() {
             }
         }
         printf("\n");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // Imprimir as laterais da grade, se houver mais linhas
         if (i < altura - 1) {
@@ -63,6 +109,22 @@ int main() {
  return 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////leitura do teclado 
 
 int main() {
     int num;
